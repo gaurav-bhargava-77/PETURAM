@@ -62,11 +62,11 @@
         }
 
         .logo {
-            margin-right: 200px;
+            margin-right: 300px;
         }
 
         h1 {
-            font-size: 10rem;
+            font-size: 8rem;
             margin: 0;
             color: #f3f0eb;
             text-align: center;
@@ -79,13 +79,30 @@
             text-align: center;
             font-family: 'Brush Script MT', cursive;;
         }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap; /* Allows images to wrap to the next line if necessary */
+            gap: 10px; /* Space between images */
+        }
+        figure {
+            width: 200px; /* Set the width for each figure block */
+            text-align: center; /* Centers the figcaption below the image */
+            margin: 0;
+        }
+        img1 {
+            width: 100%;
+            height: auto;
+        }
+
     </style>
 </head>
 <body>
 
 <header>
     <div class="logo-title-container">
-        <img src="https://drive.google.com/thumbnail?id=1tp2iutRnmc_ICMYjrYr8L_0LoM3l316E" class="logo" width="200" height="200">
+        <img src="https://drive.google.com/thumbnail?id=1DA6W7NNjAPbdK4vNPUpKbuUgbFVfhs1X" class="logo" width="150" height="150">
         <div>
             <h1>Peturam</h1>
             <p class="tagline">Satisfying North Indian Cravings</p>
@@ -108,11 +125,60 @@
 </section>
 
 <section id="menu" class="menu">
-    <h2>Our Menu</h2>
-    <a href="https://drive.google.com/drive-viewer/AKGpihYmz9Bo9GRHNshR_UA9MLA6lur4gqw0a6bLYjb2mQaSnuPFNxvLk1sNB0RWIxpl9BwxOf0vZa831CVZ06JEk0iX5ZaS8E8GMQE=s1600-rw-v1?source=screenshot.guru"> <img src="https://drive.google.com/drive-viewer/AKGpihYmz9Bo9GRHNshR_UA9MLA6lur4gqw0a6bLYjb2mQaSnuPFNxvLk1sNB0RWIxpl9BwxOf0vZa831CVZ06JEk0iX5ZaS8E8GMQE=s1600-rw-v1" /> Chole Bhature</a>
-    <img src="https://drive.google.com/drive-viewer/AKGpihYmz9Bo9GRHNshR_UA9MLA6lur4gqw0a6bLYjb2mQaSnuPFNxvLk1sNB0RWIxpl9BwxOf0vZa831CVZ06JEk0iX5ZaS8E8GMQE=s1600-rw-v1" alt="Chole Bhature">   
-    <img src="dish2.jpg" alt="Dish 2">
-    <img src="dish3.jpg" alt="Dish 3">
+    <h2>Our Menu</h2>   
+
+    <div class="image-gallery">
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1hZKaqR2w0lcVceovSfWb_ySccdcr-Dee" alt="Chole Bhature">
+            <figcaption>Chole Bhature</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=15-N07pNZxXDVnSZW95eTKG66sMyTVhMO" alt="Shahi Thali">
+            <figcaption>Peturam Shahi Thali</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1rifaQtfW-HYU9t1FRlgnBFsEfUI8CcrL" alt="Bedmi Poori Subzi">
+            <figcaption>Bedmi Poori Subzi</figcaption>
+        </figure> 
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1e6pRIlZ-StMs1ZsbyY4OCNugmqS6DA2b" alt="Pav Bhaji">
+            <figcaption>Pav Bhaji</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1wKhMNHC0pTkWUFoSPp2psyOWFkVHxXML" alt="Matar Kulche">
+            <figcaption>Dilli Wale Matar Kulche</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1wWo0Qw6L1dtX1T-L16X0G1BrJVWGLuXE" alt="Chole Kulche">
+            <figcaption>Chole Kulche</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1DsWL9AASNseho6LIVXRt3gItDEwLzDRj" alt="Chole Kulche">
+            <figcaption>Poori Subzi</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1RYEbekDdD8dHBUUg82rGUzIbztJHX6_5" alt="Gulab Jamun">
+            <figcaption>Makkhan Dai Wada</figcaption>
+        </figure> 
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1jfHIUy_d4U1EQ61SS-lrpoe8zc2JpGiI" alt="Gulab Jamun">
+            <figcaption>Gulabjamun</figcaption>
+        </figure> 
+
+        <figure>
+            <img src="https://drive.google.com/thumbnail?id=1nxvC1YEBqHGovXfcNh05-pgfSH3knU7f" alt="Jalebi">
+            <figcaption>Jalebi</figcaption>
+        </figure>
+    </div>
+    
     <!-- Add more images as needed -->
 </section>
 
